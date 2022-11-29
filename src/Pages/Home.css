@@ -1,0 +1,57 @@
+
+
+.listafilmes {
+    max-width: 800px;
+    margin: 14px auto;
+}
+
+.listafilmes article {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.856);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.listafilmes h1 {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.img {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.links {
+    cursor: pointer;
+    background-color: #b31217;
+    height: 50px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.links:hover {
+    background-color: #e52d27;
+}
